@@ -21,6 +21,7 @@ if(BUILD_EXE_VIEWER)
       ${PCL_VISUALIZATION_LIBRARIES}
       ${OpenCV_LIBRARIES}
       ${LIB_boost_program_options}
+      ${Boost_SYSTEM_LIBRARY}
       )
   else()
     target_link_libraries(o3d3xx-viewer
@@ -30,6 +31,7 @@ if(BUILD_EXE_VIEWER)
       ${PCL_VISUALIZATION_LIBRARIES}
       ${OpenCV_LIBRARIES}
       ${LIB_boost_program_options}
+      ${Boost_SYSTEM_LIBRARY}
       )
   endif(BUILD_SHARED_LIBS)
 
