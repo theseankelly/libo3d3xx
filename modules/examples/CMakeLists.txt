@@ -40,7 +40,7 @@ endif()
 ################################################
 ## Manage our compiler and linker flags
 ################################################
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 include_directories(
   ${O3D3XX_IMAGE_INCLUDE_DIRS}

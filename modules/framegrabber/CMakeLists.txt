@@ -71,7 +71,7 @@ find_package(o3d3xx_camera ${O3D3XX_VERSION_STRING} EXACT REQUIRED)
 ################################################
 ## Manage our compiler and linker flags
 ################################################
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 file(COPY ${O3D3XX_FRAMEGRABBER_SOURCE_DIR}/include
   DESTINATION ${O3D3XX_FRAMEGRABBER_BINARY_DIR}

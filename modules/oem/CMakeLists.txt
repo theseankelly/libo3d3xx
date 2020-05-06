@@ -81,7 +81,7 @@ find_package(resultsync 0.2 REQUIRED)
 ## Manage our compiler and linker flags
 ################################################
 set(CMAKE_BUILD_TYPE Release) # Release or Debug
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-literal-suffix")
 
 file(COPY ${O3D3XX_OEM_SOURCE_DIR}/include

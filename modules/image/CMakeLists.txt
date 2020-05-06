@@ -124,7 +124,7 @@ MESSAGE(STATUS "OpenCV_DIR: " ${OpenCV_DIR})
 ################################################
 ## Manage our compiler and linker flags
 ################################################
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 file(COPY ${O3D3XX_IMAGE_SOURCE_DIR}/include
   DESTINATION ${O3D3XX_IMAGE_BINARY_DIR}

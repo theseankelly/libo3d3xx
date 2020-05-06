@@ -92,7 +92,7 @@ find_package(Boost REQUIRED COMPONENTS program_options system)
 ################################################
 ## Manage our compiler and linker flags
 ################################################
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 # NOTE: The `FindXMLRPC.cmake` file does not respect cross-compilation
 # environments, so, we make the assumption the includes are in a standard
